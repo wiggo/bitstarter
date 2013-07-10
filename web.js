@@ -6,7 +6,6 @@ var buffer = fs.readFileSync('index.html');
 var msg = buffer.toString();
 
 app.get('/', function(request, response) {
-//  response.send('XzX');
   response.send(msg);
 });
 
